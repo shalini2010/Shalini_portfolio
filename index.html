@@ -1,1 +1,183 @@
-This my index file
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shalini Patel — Data Science Portfolio</title>
+  <meta name="description" content="Data Science Portfolio: ML, Time Series, NLP, Big Data" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+  <header class="container header">
+    <div class="hero">
+      <div class="hero-left">
+        <p class="tag">Data Scientist • Data Analyst • ML Engineer</p>
+        <h1>Your Name</h1>
+        <p class="subtitle">
+          MS in Data Analytics • Former Software Engineer (.NET / Azure) •
+          Building end-to-end ML, forecasting, and data products.
+        </p>
+
+        <div class="cta-row">
+          <a class="btn" href="#projects">View Projects</a>
+          <a class="btn btn-ghost" href="assets/Your_Name_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+          <a class="btn btn-ghost" href="mailto:youremail@example.com">Email</a>
+          <a class="btn btn-ghost" href="https://github.com/your-username" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/your-linkedin/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+
+        <div class="chips">
+          <span class="chip">Python</span>
+          <span class="chip">SQL</span>
+          <span class="chip">Scikit-learn</span>
+          <span class="chip">Statsmodels</span>
+          <span class="chip">PySpark</span>
+          <span class="chip">Tableau / Power BI</span>
+          <span class="chip">Azure</span>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="avatar">
+          <!-- Put a photo at assets/profile.jpg (or remove img) -->
+          <img src="assets/profile.jpg" alt="Profile photo" onerror="this.style.display='none'" />
+          <div class="avatar-fallback">
+            <div class="initials">YN</div>
+            <p>Add assets/profile.jpg</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section" id="about">
+      <h2>About</h2>
+      <p>
+        I build data products end-to-end: data cleaning + feature engineering, modeling, evaluation,
+        and storytelling with clear visuals. My recent work includes time-series forecasting, classification,
+        clustering, NLP, and big data pipelines in Spark.
+      </p>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p class="muted">4–6 strong projects beats 20 small ones.</p>
+      </div>
+
+      <div class="grid">
+        <!-- Project Card 1 -->
+        <article class="card">
+          <div class="card-media">
+            <img src="assets/preview-time-series.png" alt="Project preview"
+                 onerror="this.style.display='none'" />
+            <div class="media-fallback">
+              <span>Time Series Forecasting</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3>Multi-Asset Portfolio Forecasting</h3>
+            <p>
+              Forecast returns for a diversified portfolio using Random Walk vs ARIMA/SARIMA with rolling evaluation.
+              Includes RMSE/MAPE comparison and performance dashboards.
+            </p>
+            <div class="badges">
+              <span class="badge">Time Series</span>
+              <span class="badge">ARIMA/SARIMA</span>
+              <span class="badge">Backtesting</span>
+            </div>
+            <div class="links">
+              <a class="link" href="https://github.com/your-username/project-repo" target="_blank" rel="noreferrer">GitHub</a>
+              <a class="link" href="#" target="_blank" rel="noreferrer">Report</a>
+              <a class="link" href="#" target="_blank" rel="noreferrer">Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project Card 2 -->
+        <article class="card">
+          <div class="card-media">
+            <div class="media-fallback"><span>Classification</span></div>
+          </div>
+          <div class="card-body">
+            <h3>Heart Disease Prediction</h3>
+            <p>
+              Predict heart disease risk using Logistic Regression, Random Forest, and XGBoost. Includes ROC-AUC,
+              confusion matrix, and explainability (SHAP).
+            </p>
+            <div class="badges">
+              <span class="badge">ML</span>
+              <span class="badge">Classification</span>
+              <span class="badge">Explainability</span>
+            </div>
+            <div class="links">
+              <a class="link" href="https://github.com/your-username/project-repo" target="_blank" rel="noreferrer">GitHub</a>
+              <a class="link" href="#" target="_blank" rel="noreferrer">Report</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project Card 3 -->
+        <article class="card">
+          <div class="card-media">
+            <div class="media-fallback"><span>NLP</span></div>
+          </div>
+          <div class="card-body">
+            <h3>Mental Health NLP Insights</h3>
+            <p>
+              Clean and model text using TF-IDF + Logistic Regression, plus topic modeling (LDA) to surface themes and trends.
+            </p>
+            <div class="badges">
+              <span class="badge">NLP</span>
+              <span class="badge">TF-IDF</span>
+              <span class="badge">Topic Modeling</span>
+            </div>
+            <div class="links">
+              <a class="link" href="https://github.com/your-username/project-repo" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project Card 4 -->
+        <article class="card">
+          <div class="card-media">
+            <div class="media-fallback"><span>Spark</span></div>
+          </div>
+          <div class="card-body">
+            <h3>Big Data Pipeline with PySpark</h3>
+            <p>
+              Build a Spark pipeline for large transaction data: ingestion → transformations → feature engineering → model training.
+            </p>
+            <div class="badges">
+              <span class="badge">PySpark</span>
+              <span class="badge">Spark SQL</span>
+              <span class="badge">ETL</span>
+            </div>
+            <div class="links">
+              <a class="link" href="https://github.com/your-username/project-repo" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:youremail@example.com">youremail@example.com</a><br/>
+        LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin/" target="_blank" rel="noreferrer">your-linkedin</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p class="muted">© <span id="year"></span> Your Name • Built with GitHub Pages</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
